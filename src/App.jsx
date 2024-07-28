@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="mx-auto max-w-4xl">
       <Navbar/>
+      
     </div>
   )
 }
