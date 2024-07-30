@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Navbar from './components/Navbar'
 import './App.css'
 import About from './components/About'
+import Skills from './components/Skills'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <div className="mx-auto max-w-4xl">
       <Navbar/>
       <About/>
+      <Skills/>
     </div>
   )
 }
