@@ -6,22 +6,22 @@ const projectsData = [
   {
     title: 'Weather App',
     description: 'A web application to display weather information using HTML, CSS, and JavaScript.',
-    image: '', // Update with actual image path
-    link: '', // Update with actual project link
+    image: '', 
+    link: '',
   },
   {
     title: 'To-Do List App',
     description: 'A simple to-do list app built with React to manage tasks efficiently.',
-    image: '', // Update with actual image path
-    link: '', // Update with actual project link
+    image: '', 
+    link: '', 
   },
   {
     title: 'Calculator App',
     description: 'A basic calculator app developed in React to perform arithmetic operations.',
-    image: '', // Update with actual image path
-    link: '', // Update with actual project link
+    image: '', 
+    link: '', 
   },
-  // Add more projects as needed
+
 ];
 
 const Projects = () => {
