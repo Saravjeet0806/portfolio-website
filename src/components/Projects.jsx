@@ -7,20 +7,21 @@ const projectsData = [
     title: 'Weather App',
     description: 'A web application to display weather information using HTML, CSS, and JavaScript.',
     image: '', 
-    link: '',
+    link: 'https://saravjeet0806.github.io/weather-app-using-html-css-javascript-openweatherapi/',
   },
   {
     title: 'To-Do List App',
     description: 'A simple to-do list app built with React to manage tasks efficiently.',
     image: '', 
-    link: '', 
+    link: 'https://todolistsaravjeet.netlify.app/', 
   },
   {
     title: 'Calculator App',
     description: 'A basic calculator app developed in React to perform arithmetic operations.',
     image: '', 
-    link: '', 
+    link: 'https://saravjeet0806.github.io/calculator-app-reactjs/', 
   },
+  
 
 ];
 
