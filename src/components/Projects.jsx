@@ -11,6 +11,30 @@ import Terraform from '../assets/projects/terraform.png';
 import Docker from '../assets/projects/docker.png';
 const projectsData = [
   {
+    title: 'Kubernetes_Projects',
+    description: 'Contains all the kubernetes projects and exampless',
+    image: Kubernetes, 
+    link: 'https://github.com/Saravjeet0806/Kubernetes_examples', 
+  },
+  {
+    title: 'Ansible_examples',
+    description: 'Contains all my ansible playbooks and demos',
+    image: Ansible, 
+    link: 'https://github.com/Saravjeet0806/ansible_example_codes/tree/main/AWS', 
+  },
+  {
+    title: 'Docker_examples',
+    description: 'Contains all my docker examples and demos',
+    image: Docker, 
+    link: 'https://github.com/Saravjeet0806/docker_projects', 
+  },
+  {
+    title: 'AarogyaSmart',
+    description: 'A fitness application which shows fitness recommendations according to a various attributes',
+    image: Aarogya, 
+    link: 'https://saravjeet0806.github.io/aarogya_smart/', 
+  },
+  {
     title: 'Weather App',
     description: 'A web application to display weather information using HTML, CSS, and JavaScript.',
     image: WeatherImage, 
@@ -23,45 +47,22 @@ const projectsData = [
     link: 'https://todolistsaravjeet.netlify.app/', 
   },
   {
+    title: 'Terraform_scripts',
+    description: 'Contains all my terraform scripts and demos',
+    image: Terraform, 
+    link: 'https://github.com/Saravjeet0806/Terraform_codes', 
+  },
+  {
     title: 'Calculator App',
     description: 'A basic calculator app developed in React to perform arithmetic operations.',
     image: CalImage, 
     link: 'https://saravjeet0806.github.io/calculator-app-reactjs/', 
   },
-  {
-    title: 'AarogyaSmart',
-    description: 'A fitness application which shows fitness recommendations according to a various attributes',
-    image: Aarogya, 
-    link: 'https://saravjeet0806.github.io/aarogya_smart/', 
-  },
+
   {
     title: 'Exam_app',
     description: 'An app that converts xlsx files to JSON files and can be used to conduct online exams and display scores',
     image: Exam_app, 
-    link: 'https://saravjeet0806.github.io/exam-app/', 
-  },
-  {
-    title: 'Kubernetes_Projects',
-    description: 'Contains all the kubernetes projects and exampless',
-    image: Kubernetes, 
-    link: 'https://saravjeet0806.github.io/exam-app/', 
-  },
-  {
-    title: 'Docker_examples',
-    description: 'Contains all my docker examples and demos',
-    image: Docker, 
-    link: 'https://saravjeet0806.github.io/exam-app/', 
-  },
-  {
-    title: 'Terraform_scripts',
-    description: 'Contains all my terraform scripts and demos',
-    image: Terraform, 
-    link: 'https://saravjeet0806.github.io/exam-app/', 
-  },
-  {
-    title: 'Ansible_examples',
-    description: 'Contains all my ansible playbooks and demos',
-    image: Ansible, 
     link: 'https://saravjeet0806.github.io/exam-app/', 
   },
 

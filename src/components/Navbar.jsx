@@ -14,7 +14,7 @@ const Navbar = () => {
         <h1 className='text-3xl font-bold primary-color ml-4'>Saravjeet Singh</h1>
         <ul className='hidden md:flex'>
           <li className='p-5'><a href='#about'>About</a></li>
-          <li className='p-5'><a href='#work'>Work</a></li>
+          <li className='p-5'><a href='#projects'>Projects</a></li>
           <li className='p-5'><a href='#contact'>Contact</a></li>
         </ul> 
 
@@ -26,7 +26,7 @@ const Navbar = () => {
         <h1 className='text-3xl font-bold primary-color ml-4'>Saravjeet Singh</h1>
           <ul className='p-8 text-2xl'>
           <li className='p-2'><a href='#about'>About</a></li>
-          <li className='p-2'><a href='#work'>Work</a></li>
+          <li className='p-2'><a href='#projects'>Projects</a></li>
           <li className='p-2'><a href='#contact'>Contact</a></li>
           </ul>
         </div>
