@@ -1,32 +1,40 @@
 import React from 'react';
-import myImage from '../assets/myImage.png';
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center p-6 m-5 bg-gray-100 rounded-lg shadow-md md:flex-row md:items-start">
-    <div className="w-60 h-auto mb-4 md:mb-0 md:mr-6">
-      <img src={myImage} alt="my-image" className="w-full h-auto object-cover rounded-lg" />
-    </div>
-    <div>
-      <h2 className="text-2xl font-bold mb-2 text-gray-900">About Me</h2>
-      <p className="text-gray-700 leading-relaxed">
-      I am a 3rd-year B.Tech IT student at GJU S&T with a strong passion for technology and problem-solving. My primary interests lie in Data Structures and Algorithms (DSA), front-end web development, and DevOps.
-        </p>
-        <div className="mt-4">
-          <h3 className="text-2xl font-semibold text-gray-900 mb-4">What I Bring:</h3>
-          <ul className="list-disc list-inside text-gray-700">
-            <li><strong>Analytical Skills:</strong> Proficient in DSA, enabling the creation of efficient and scalable solutions.</li>
-            <li><strong>Front-End Development:</strong> Experienced in HTML, CSS, JavaScript, and React, with projects including a Weather App, To-Do List app, and Calculator app.</li>
-            <li><strong>DevOps Enthusiast:</strong> Knowledgeable in shell scripting, GitHub, and CI/CD practices, with practical experience in resource tracking scripts.</li>
-          </ul>
+    <section className="min-h-screen bg-black text-white px-6 py-24">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        {/* Text Content */}
+        <div>
+          <h2 className="text-4xl sm:text-5xl font-extrabold mb-6 border-b-4 border-pink-500 inline-block pb-2">
+            About Me
+          </h2>
+          <p className="text-lg leading-relaxed mb-6 text-gray-300">
+            Hi, I’m <span className="text-white font-semibold">Saravjeet Singh</span>, a driven <span className="text-pink-400 font-semibold">DevOps Engineer</span> and <span className="text-orange-400 font-semibold">Frontend Developer</span>. Currently pursuing my B.Tech in IT from GJUS&T, I thrive on building smart, scalable, and impactful tech solutions.
+          </p>
+          <p className="text-lg leading-relaxed mb-6 text-gray-300">
+            I’m hands-on with tools like <span className="text-white font-medium">Docker, Kubernetes, Ansible, and Terraform</span>, helping automate cloud infrastructure and CI/CD pipelines. On the frontend side, I craft beautiful interfaces using <span className="text-white font-medium">React.js, Tailwind CSS</span>, and the <span className="text-white font-medium">MERN stack</span>.
+          </p>
+          <p className="text-lg leading-relaxed mb-6 text-gray-300">
+            I actively participate in coding competitions, mentor juniors, and love contributing to tech communities. Whether it’s shipping products or speaking on stage—I'm all about learning and leveling up.
+          </p>
+          <a
+            href="/#projects"
+            className="inline-block mt-4 px-6 py-3 rounded-xl bg-gradient-to-br from-orange-500 to-pink-500 text-white hover:opacity-90 transition"
+          >
+            View My Work
+          </a>
         </div>
-        <p className="mt-4 text-gray-900">
-          I am always eager to expand my knowledge and am open to networking and exploring opportunities in software development and DevOps. Let’s connect to discuss potential collaborations or share insights on technology and innovation.
-      </p>
-    </div>
-  </div>
+
+        {/* Optional Image or Quote */}
+        <div className="text-center lg:text-right">
+          <blockquote className="text-xl italic text-gray-400 border-l-4 pl-4 border-pink-600">
+            “Code. Build. Break. Learn. Repeat.”
+          </blockquote>
+        </div>
+      </div>
+    </section>
   );
-}
+};
 
 export default About;
-
