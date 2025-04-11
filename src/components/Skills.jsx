@@ -11,6 +11,12 @@ import { FaAws, FaJava, FaNodeJs } from 'react-icons/fa';
 
 const Skills = () => {
   const skills = [
+    { name: 'Docker', icon: <SiDocker size={40} /> },
+    { name: 'Kubernetes', icon: <SiKubernetes size={40} /> },
+    { name: 'Ansible', icon: <SiAnsible size={40} /> },
+    { name: 'Terraform', icon: <SiTerraform size={40} /> },
+    { name: 'Linux', icon: <SiLinux size={40} /> },
+    { name: 'AWS', icon: <FaAws size={40} /> },
     { name: 'C++', icon: <SiCplusplus size={40} /> },
     { name: 'C', icon: <SiC size={40} /> },
     { name: 'Java', icon: <FaJava size={40} /> },
@@ -24,12 +30,7 @@ const Skills = () => {
     { name: 'Tailwind CSS', icon: <SiTailwindcss size={40} /> },
     { name: 'Bootstrap', icon: <SiBootstrap size={40} /> },
     { name: 'Git', icon: <SiGit size={40} /> },
-    { name: 'Docker', icon: <SiDocker size={40} /> },
-    { name: 'Kubernetes', icon: <SiKubernetes size={40} /> },
-    { name: 'Ansible', icon: <SiAnsible size={40} /> },
-    { name: 'Terraform', icon: <SiTerraform size={40} /> },
-    { name: 'Linux', icon: <SiLinux size={40} /> },
-    { name: 'AWS', icon: <FaAws size={40} /> },
+  
   ];
 
   return (

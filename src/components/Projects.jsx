@@ -1,12 +1,19 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
 import TodolistImage from '../assets/projects/todo-list-project.png';
-
+import WeatherImage from '../assets/projects/weatherapp.png';
+import CalImage from '../assets/projects/calculator.png';
+import Aarogya from '../assets/projects/aarogya_smart.png';
+import Exam_app from '../assets/projects/exam_app.png';
+import Kubernetes from '../assets/projects/kubernetes.png';
+import Ansible from '../assets/projects/ansible.png';
+import Terraform from '../assets/projects/terraform.png';
+import Docker from '../assets/projects/docker.png';
 const projectsData = [
   {
     title: 'Weather App',
     description: 'A web application to display weather information using HTML, CSS, and JavaScript.',
-    image: '', 
+    image: WeatherImage, 
     link: 'https://saravjeet0806.github.io/weather-app-using-html-css-javascript-openweatherapi/',
   },
   {
@@ -18,25 +25,66 @@ const projectsData = [
   {
     title: 'Calculator App',
     description: 'A basic calculator app developed in React to perform arithmetic operations.',
-    image: '', 
+    image: CalImage, 
     link: 'https://saravjeet0806.github.io/calculator-app-reactjs/', 
   },
+  {
+    title: 'AarogyaSmart',
+    description: 'A fitness application which shows fitness recommendations according to a various attributes',
+    image: Aarogya, 
+    link: 'https://saravjeet0806.github.io/aarogya_smart/', 
+  },
+  {
+    title: 'Exam_app',
+    description: 'An app that converts xlsx files to JSON files and can be used to conduct online exams and display scores',
+    image: Exam_app, 
+    link: 'https://saravjeet0806.github.io/exam-app/', 
+  },
+  {
+    title: 'Kubernetes_Projects',
+    description: 'Contains all the kubernetes projects and exampless',
+    image: Kubernetes, 
+    link: 'https://saravjeet0806.github.io/exam-app/', 
+  },
+  {
+    title: 'Docker_examples',
+    description: 'Contains all my docker examples and demos',
+    image: Docker, 
+    link: 'https://saravjeet0806.github.io/exam-app/', 
+  },
+  {
+    title: 'Terraform_scripts',
+    description: 'Contains all my terraform scripts and demos',
+    image: Terraform, 
+    link: 'https://saravjeet0806.github.io/exam-app/', 
+  },
+  {
+    title: 'Ansible_examples',
+    description: 'Contains all my ansible playbooks and demos',
+    image: Ansible, 
+    link: 'https://saravjeet0806.github.io/exam-app/', 
+  },
+
 ];
 
 const Projects = () => {
   return (
-    <section className="p-6 bg-gray-100 rounded-lg shadow-md m-5">
-      <h2 className="text-2xl font-bold mb-4 text-gray-800">Projects</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {projectsData.map((project, index) => (
-          <ProjectCard
-            key={index}
-            image={project.image}
-            title={project.title}
-            description={project.description}
-            link={project.link}
-          />
-        ))}
+    <section className="min-h-screen bg-black text-white py-20 px-6" id="projects">
+      <div className="max-w-6xl mx-auto text-center">
+        <h2 className="text-4xl sm:text-5xl font-extrabold mb-12 border-b-4 inline-block border-pink-500 pb-2">
+          Projects
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
+          {projectsData.map((project, index) => (
+            <ProjectCard
+              key={index}
+              image={project.image}
+              title={project.title}
+              description={project.description}
+              link={project.link}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );

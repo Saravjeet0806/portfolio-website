@@ -14,7 +14,7 @@ const Contact = () => {
 
         <div className="flex justify-center space-x-10 text-4xl">
           <a
-            href="https://github.com/saravjeet-singh"
+            href="https://github.com/Saravjeet0806"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-pink-500 transition"
@@ -22,7 +22,7 @@ const Contact = () => {
             <FaGithub />
           </a>
           <a
-            href="https://www.instagram.com/saravjeet.7/"
+            href="https://www.instagram.com/saravjeet_rathore/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-pink-500 transition"
@@ -30,7 +30,7 @@ const Contact = () => {
             <FaInstagram />
           </a>
           <a
-            href="https://www.linkedin.com/in/saravjeet-singh-49b500220/"
+            href="https://www.linkedin.com/in/saravjeetsingh08/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-pink-500 transition"
