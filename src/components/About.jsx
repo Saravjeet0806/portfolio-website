@@ -20,7 +20,7 @@ const About = () => {
           </p>
           <a
             href="/#projects"
-            className="inline-block mt-4 px-6 py-3 rounded-xl bg-gradient-to-br from-orange-500 to-pink-500 text-white hover:opacity-90 transition"
+             className="inline-block mt-4 px-6 py-3 rounded-xl bg-gradient-to-br from-orange-500 to-pink-500 text-white hover:opacity-90 transition"
           >
             View My Work
           </a>
