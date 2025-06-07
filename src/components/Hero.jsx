@@ -19,7 +19,7 @@ const Hero = () => {
         <p className='text-white sm:text-lg my-6 lg:text-xl'>My name is Saravjeet Singh and I am a passionate Devops Engineer and Web Developer</p>
         <div className="my-8">
           <a
-            href="https://media.licdn.com/dms/document/media/v2/D562DAQFK6MLx5pOBvQ/profile-treasury-document-pdf-analyzed/B56ZYudrrZHoAk-/0/1744536257306?e=1745452800&v=beta&t=WE709ftNCjViYMtjEfOW5X4lAjZ6JlmlBE0H1rSwwoE"
+            href="https://media.licdn.com/dms/document/media/v2/D562DAQHGN-p8WaY2oQ/profile-treasury-document-pdf-analyzed/B56ZdJZS0EH8Ac-/0/1749283059325?e=1750291200&v=beta&t=E-aXY413Hu3koMngEUVux16aXD4iKVR3lwylEhFqv7k"
             className="px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-orange-500 to-pink-500 text-white"
           >
             Download CV
