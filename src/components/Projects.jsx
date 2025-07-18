@@ -9,7 +9,14 @@ import Kubernetes from '../assets/projects/kubernetes.png';
 import Ansible from '../assets/projects/ansible.png';
 import Terraform from '../assets/projects/terraform.png';
 import Docker from '../assets/projects/docker.png';
+import DevopsMania from '../assets/projects/devops-mania.png';
 const projectsData = [
+  {
+    title: 'DevOps Mania',
+    description: 'Full-stack DevOps saas landing page using Mern Stack',
+    image: DevopsMania, 
+    link: 'https://devops-landing-saas.onrender.com/', 
+  },
   {
     title: 'Kubernetes_Projects',
     description: 'Contains all the kubernetes projects and exampless',
