@@ -19,7 +19,7 @@ const Hero = () => {
         <p className='text-white sm:text-lg my-6 lg:text-xl'>My name is Saravjeet Singh and I am a passionate Devops Engineer and Web Developer</p>
         <div className="my-8">
           <a
-  href="https://drive.google.com/uc?export=download&id=1By52cCi0FHsjYMYbzpOCm8jDkctJkehq"
+  href="https://drive.usercontent.google.com/u/0/uc?id=1u0fRNnvsivAZ4_dBzsRgACqn0kgpdxdn&export=download"
   className="px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-orange-500 to-pink-500 text-white text-center"
   target="_blank"
   rel="noopener noreferrer"
